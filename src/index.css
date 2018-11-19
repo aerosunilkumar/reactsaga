@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.black {
+  background-color: black !important;
+  color: white !important;
+  white-space: normal !important;
+  text-overflow: inherit !important;
+}
+
+.selected {
+  background-color: #636161 !important;
+}
+
+input[type="text"] {
+  color: white !important;
+  border: white;
+  width: 150px;
+}
+
+input[type="text"] ::before {
+  border-bottom-color: white !important;
+}
+
+.create-project-btn {
+  border: 1px solid red !important;
+  font-weight: 900 !important;
+  float: right;
+}
+
+.App {
+  margin: 10px !important;
+}
